@@ -1,0 +1,33 @@
+{
+    "request": {
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer sjsuaye8adisa2ucHASDAGSDUyenks7AYDsv",
+            "Accept": "application/json"
+        },
+        "body": {
+            "name": "John Doe",
+            "email": "john@example.com",
+            "age": 30
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "X-Rate-Limit": "100",
+            "X-Rate-Limit-Remaining": "99"
+        },
+        "body": {
+            "status": "success",
+            "message": "Data processed successfully",
+            "data": {
+                "id": 123,
+                "name": "John Doe",
+                "email": "john@example.com",
+                "age": 30
+            }
+        }
+    }
+}
